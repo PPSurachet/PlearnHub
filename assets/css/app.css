@@ -1,0 +1,22 @@
+.toolbar{
+    height: 60px;
+}
+.toolbar__title{
+    padding-top: 8px;
+    background-color: #820408;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.tabbar{
+    background-color: #820408;
+}
+.tabbar__button{
+    color: rgba(255, 255, 255, 0.644);
+}
+:checked+.tabbar__button{
+    color: white;
+}
+ons-carousel[fullscreen] {
+    height: 90%;
+}
