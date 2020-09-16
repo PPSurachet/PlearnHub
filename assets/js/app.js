@@ -31,6 +31,9 @@ $(document).ready(function(){
             };
         }else if(page.id === 'DetailNTND' || page.id === 'DetailSPEC' || page.id === 'DetailSKY'){
             $("#Back-btn").show();
+            document.querySelector('ons-back-button').onclick = function(event){
+                document.querySelector('#myNavigator').pushPage('views/Home.html');
+            }
         }
     });
 })
