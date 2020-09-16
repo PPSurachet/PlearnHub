@@ -20,17 +20,17 @@
 ons-carousel[fullscreen] {
     height: 90%;
 }
-.imgF-carousel{
+.imgNTND{
     background: url(/assets/image/NoTimeToDie.jpg) ;
     background-repeat: no-repeat; 
     background-size: cover;
 }
-.imgS-carousel{
+.imgSPEC{
     background: url(/assets/image/Spectre.jpg) ;
     background-repeat: no-repeat; 
     background-size: cover;
 }
-.imgT-carousel{
+.imgSKY{
     background: url(/assets/image/SkyFall.jpg) ;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -67,4 +67,25 @@ ons-carousel[fullscreen] {
 .iconstar{
     display: flex;
     justify-content: space-around;
+}
+.DetailPage{ 
+    margin-top: 30px;
+    text-align: center;
+}
+.DetailImg{
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px;
+    width: 300px;
+}
+.Detail-title-padding{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.Detail-text{
+    font-size: 15px;
+    line-height: 25px;
+}
+.iconDetail{
+    padding-left: 220px;
 }
