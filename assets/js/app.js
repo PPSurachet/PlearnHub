@@ -19,6 +19,7 @@ $(document).ready(function(){
         var page = event.target;
         
         if (page.id === 'Home') {
+            $("#Back-btn").hide();
             page.querySelector('#NTND').onclick = function () {
                 document.querySelector('#myNavigator').pushPage('views/DetailNTND.html');
             };
@@ -28,6 +29,8 @@ $(document).ready(function(){
             page.querySelector('#SKY').onclick = function () {
                 document.querySelector('#myNavigator').pushPage('views/DetailSKY.html');
             };
+        }else if(page.id === 'DetailNTND' || page.id === 'DetailSPEC' || page.id === 'DetailSKY'){
+            $("#Back-btn").show();
         }
     });
 })

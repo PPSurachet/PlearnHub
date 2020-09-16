@@ -8,6 +8,17 @@
     font-weight: bold;
     font-size: 30px;
 }
+svg{
+    padding-top: 15px;
+    width: 20px;
+    height: 35px;
+}
+.toolbar__left, .toolbar__right{
+    background-color: #820408;
+}
+.back-button__icon{
+    fill: white;
+}
 .tabbar{
     background-color: #820408;
 }
