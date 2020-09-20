@@ -17,7 +17,6 @@ $(document).ready(function(){
     
     document.addEventListener('init', function (event) {
         var page = event.target;
-        
         if (page.id === 'Home') {
             $("#Back-btn").hide();
             page.querySelector('#NTND').onclick = function () {

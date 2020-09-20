@@ -29,7 +29,7 @@ svg{
     color: white;
 }
 ons-carousel[fullscreen] {
-    height: 90%;
+    height: 70%;
 }
 .imgNTND{
     background: url(/assets/image/NoTimeToDie.jpg) ;
