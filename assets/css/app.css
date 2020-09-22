@@ -13,14 +13,11 @@ svg{
     width: 20px;
     height: 35px;
 }
-.toolbar__left, .toolbar__right{
+.toolbar__left, .toolbar__right, .tabbar{
     background-color: #820408;
 }
 .back-button__icon{
     fill: white;
-}
-.tabbar{
-    background-color: #820408;
 }
 .tabbar__button{
     color: rgba(255, 255, 255, 0.644);
