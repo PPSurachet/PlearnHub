@@ -3,70 +3,11 @@
     <template id="Search.html">
         <ons-page id="Search">
             <div class="paddingsearch">
-                <ons-search-input placeholder="Search"></ons-search-input>
+                <ons-search-input placeholder="Search" id="ValueSearch" onchange="getmoviefromSearch()">
+                </ons-search-input>
             </div>
-            <div class="padding-box-movie">
-                <ons-row id="SearchNTND">
-                    <ons-col width="130px">
-                        <img src="/assets/image/NoTimeToDie.jpg" alt="" width="120px" height="190px">
-                    </ons-col>
-                    <ons-col>
-                        <div class="title-movie">007 No Time To Die</div>
-                        <div class="text-movie">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the ...</div>
-                        <div class="title-movie">Rating</div>
-                        <div class="iconstar">
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star-half"></ons-icon>
-                        </div>
-                    </ons-col>
-                </ons-row>
-            </div>
-            <div class="padding-box-movie">
-                <ons-row>
-                    <ons-col width="130px">
-                        <img src="/assets/image/Spectre.jpg" alt="" width="120px" height="190px">
-                    </ons-col>
-                    <ons-col>
-                        <div class="title-movie">007 Spectre (2015)</div>
-                        <div class="text-movie">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the ...</div>
-                        <div class="title-movie">Rating</div>
-                        <div class="iconstar">
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star-half"></ons-icon>
-                            <ons-icon size="25px" icon="md-star-outline"></ons-icon>
-                        </div>
-                    </ons-col>
-                </ons-row>
-            </div>
-            <div class="padding-box-movie">
-                <ons-row>
-                    <ons-col width="130px">
-                        <img src="/assets/image/SkyFall.jpg" alt="" width="120px" height="190px">
-                    </ons-col>
-                    <ons-col>
-                        <div class="title-movie">007 Skyfall (2012)</div>
-                        <div class="text-movie">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the ...</div>
-                        <div class="title-movie">Rating</div>
-                        <div class="iconstar">
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star"></ons-icon>
-                            <ons-icon size="25px" icon="md-star-outline"></ons-icon>
-                        </div>
-                    </ons-col>
-                </ons-row>
+            <div id="searchResultItem">
+
             </div>
         </ons-page>
     </template>

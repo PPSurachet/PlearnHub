@@ -2,32 +2,16 @@
     <ons-navigator swipeable id="Navigator_home" page="Home.html"></ons-navigator>
     <template id="Home.html">
         <ons-page id="Home">
-            <ons-carousel fullscreen centered swipeable auto-scroll overscrollable id="carousel">
-                <ons-carousel-item class="imgNTND" id="NTND">
-                </ons-carousel-item>
-                <ons-carousel-item class="imgSPEC" id="SPEC">
-                </ons-carousel-item>
-                <ons-carousel-item class="imgSKY" id="SKY">
+            <ons-carousel fullscreen swipeable auto-scroll overscrollable id="CarouselMovie">
             </ons-carousel>
-            <div class="HomeTitle">
+            <div class=" HomeTitle" id="Test">
                 <p>Top 10 of 2020</p>
             </div>
             <div class="movie-list">
-                <ons-carousel swipeable item-width="150px">
-                    <ons-carousel-item>
-                        <img src="/assets/image/Spectre.jpg" alt="" width="95%">
-                    </ons-carousel-item>
-                    <ons-carousel-item>
-                        <img src="/assets/image/SkyFall.jpg" alt="" width="95%">
-                    </ons-carousel-item>
-                    <ons-carousel-item>
-                        <img src="/assets/image/Spectre.jpg" alt="" width="95%">
-                    </ons-carousel-item>
-                    <ons-carousel-item>
-                        <img src="/assets/image/SkyFall.jpg" alt="" width="95%">
-                    </ons-carousel-item>
+                <ons-carousel swipeable item-width="150px" id="listMovie">
                 </ons-carousel>
             </div>
+            <div id="test"></div>
         </ons-page>
     </template>
 </ons-page>
